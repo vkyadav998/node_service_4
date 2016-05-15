@@ -2,7 +2,7 @@
  * Created by pc on 15-05-2016.
  */
 
-//dynamic url params (request params)
+//dynamic get url params (request params)
 //ex.  http://localhost:3005/vk/vipin/456
 
 var express =require("express");
