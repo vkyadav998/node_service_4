@@ -1,6 +1,8 @@
 /**
  * Created by pc on 15-05-2016.
  */
+//get data and post data -simple in query-params and body 
+
 var express =require("express");
 var bodyParser= require("body-parser");
 
