@@ -1,6 +1,9 @@
 /**
  * Created by pc on 15-05-2016.
  */
+/**
+ * Created by pc on 15-05-2016.
+ */
 var express =require("express");
 var bodyParser= require("body-parser");
 
@@ -10,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
-app.get("/vk/:name/:id",function (req,res) {
+app.post("/vk/:name/:id",function (req,res) {
     var name =req.params.name;
     var id =req.params.id;
     res.send("hellow mr. "+ name +" whats'up?"+" Your id is :"+id);
@@ -18,6 +21,6 @@ app.get("/vk/:name/:id",function (req,res) {
 
 
 
-app.listen(3005,function (req,res) {
-    console.log("server 5 started here");
+app.listen(3006,function (req,res) {
+    console.log("server 6 started here");
 })
